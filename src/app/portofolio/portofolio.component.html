@@ -1,0 +1,49 @@
+<div class="row m-0">
+  <div class="col-12">
+    <p class="fs-3 fw-3 m-3" id="shadow">PortoFolio</p>
+</div>
+
+<div class="row mx-auto mb-3">
+  <div class="col-4 mb-3" *ngFor="let card of cardList">
+    <div class="card text-white bg-secondary" [ngClass]="{'bg-info':card.bg}"  style="width: 18rem;height: 200px;">
+      <div class="card-body d-flex align-items-center justify-content-center ">
+        <h5 class="card-title">{{card.title}}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="card text-white bg-secondary  " style="width: 18rem;height: 200px;">
+      <div class="card-body d-flex align-items-center justify-content-center ">
+        <h5 class="card-title">WEB DESIGN</h5>
+      </div>
+    </div>
+    <div class="card text-white bg-secondary  " style="width: 18rem;height: 200px;">
+      <div class="card-body  d-flex align-items-center justify-content-center">
+        <h5 class="card-title">MOPILE DESIGN</h5>
+      </div>
+    </div>
+
+    <div class="card text-white bg-secondary m-3 mx-auto" style="width: 18rem;height: 200px;">
+      <div class="card-body  d-flex align-items-center justify-content-center">
+        <h5 class="card-title">LOGO DESIGN</h5>
+      </div>
+    </div>
+    <div class="card text-white bg-secondary m-3  mx-auto" style="width: 18rem;height: 200px;">
+      <div class="card-body  d-flex align-items-center justify-content-center">
+        <h5 class="card-title">Web APP DEVELOPMENT</h5>
+      </div>
+    </div>
+
+    <div class="card text-white bg-secondary  m-3 mx-auto" style="width: 18rem;height: 200px;">
+      <div class="card-body  d-flex align-items-center justify-content-center">
+        <h5 class="card-title">MOPILE APP DEVELOPMENT</h5>
+      </div>
+    </div>
+    <div class="card text-white bg-secondary  col-4 m-3 mx-auto" style="width: 18rem;height: 200px;">
+      <div class="card-body  d-flex align-items-center justify-content-center">
+        <h5 class="card-title ">PAW DEVELOPMENT</h5>
+      </div>
+    </div>
+  </div> -->
+
